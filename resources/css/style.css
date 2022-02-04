@@ -4,12 +4,46 @@ html {
     font-size: 22px;
 }
 
+/* Header Section */
 nav img {
     height: 50px;
     margin: 10px;
 }
 
+
+/* Our Mission Section */
+.our_mission {
+    height: 700px;
+    width: 1200px;
+}
+
+/* Gallery Section */
 .gallery_img {
     height: 200px;
     width: 300px;
+}
+
+/* Locations Section */
+.locations {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.location_container {
+    background-color: black;
+    width: 300px;
+
+}
+
+/* Conact Section */
+.contact {
+    height: 200px;
+}
+
+
+/* Footer Section */
+footer {
+    margin-top: 20px;
+    text-align: left;
 }
