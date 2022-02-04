@@ -1,8 +1,15 @@
 html {
     background-color: black;
     color: seashell;
+    font-size: 22px;
 }
 
 nav img {
     height: 50px;
+    margin: 10px;
+}
+
+.gallery_img {
+    height: 200px;
+    width: 300px;
 }
