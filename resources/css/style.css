@@ -91,18 +91,22 @@ li {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .location_container {
+    text-align: center;
     background-color: black;
     width: 300px;
-    display: inline-flex;
-    justify-content: space-around;
+    margin: 15px 20px; 
 }
 
 /* Conact Section */
 .contact {
     height: 200px;
+    text-align: center;
 }
 
 
