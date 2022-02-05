@@ -1,8 +1,22 @@
 html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+html {
     background-color: black;
     color: hsl(25, 100%, 97%, 0.9);
     font-size: 22px;
     font-family: Helvetica;
+}
+
+body {
+    align-content: center;
+    justify-content: center;
 }
 
 /* Header Section */
@@ -44,6 +58,14 @@ li {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    display: inline-flex;
+    align-items: center;
+}
+
+.mission {
+    text-align: center;
+    background-color: black;
+    width: 100%
 }
 
 /* Gallery Section */
