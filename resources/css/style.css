@@ -15,8 +15,11 @@ html {
 }
 
 body {
-    align-content: center;
+    display: inline-flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 /* Header Section */
@@ -84,8 +87,6 @@ li {
 /* Locations Section */
 .locations {
     height: 500px;
-    display: flex;
-    justify-content: center;
     background-image: url("../images/locations-background.jpeg");
     background-position: center;
     background-size: cover;
@@ -95,7 +96,8 @@ li {
 .location_container {
     background-color: black;
     width: 300px;
-
+    display: inline-flex;
+    justify-content: space-around;
 }
 
 /* Conact Section */
