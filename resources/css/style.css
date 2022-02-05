@@ -29,6 +29,9 @@ header {
     border-bottom: 1px solid seashell;
     display: inline-flex;
     align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: black;
 }
 
 nav {
@@ -45,6 +48,7 @@ nav {
 nav ul {
     list-style-type: none;
     display: inline-flex;
+    margin-right: 10px;
 }
 
 li {
@@ -55,6 +59,7 @@ li {
 
 /* Our Mission Section */
 .our_mission {
+    margin-top: 60px;
     height: 700px;
     width: 1200px;
     background-image: url("../images/mission-background.webp");
@@ -74,9 +79,9 @@ li {
 /* Gallery Section */
 .gallery {
     width: 1000px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .gallery_img {
@@ -87,6 +92,7 @@ li {
 /* Locations Section */
 .locations {
     height: 500px;
+    width: 1200px;
     background-image: url("../images/locations-background.jpeg");
     background-position: center;
     background-size: cover;
